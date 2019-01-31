@@ -2,10 +2,12 @@
 
 body {
  font-family: 'Judson', serif;
- background-image: url("images/sign.png");
+ background: #E6E6FA;
  background-repeat: no-repeat;
  
 }
+
+
 
  {font-family: Arial, Helvetica, sans-serif;}
 * {box-sizing: border-box;}
@@ -114,7 +116,7 @@ input[type=submit]:hover {
 
 div {
   border-radius: 50px;
-  background-color: lavender;;
+  background-color: #D8BFD8;
   padding: 20px;
   width:40%;
  height: 100%; 
