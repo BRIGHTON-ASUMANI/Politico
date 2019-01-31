@@ -27,6 +27,7 @@ input[type=password], select {
   display: inline-block;
   border: 1px solid #ccc;
   border-radius: 4px;
+}
 
 input[type=email], select {
   width: 100%;
