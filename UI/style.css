@@ -1,7 +1,11 @@
+/* sign up and login styling*/
+
 body {
  font-family: 'Judson', serif;
  background-image: url("images/sign.png");
  background-repeat: no-repeat;
+ background-size: 100% 100%;
+  
 }
 
  {font-family: Arial, Helvetica, sans-serif;}
@@ -47,21 +51,21 @@ body {
     align-items: stretch;
   }
 }
-
-/*h1, h2, h3, h4, h5, h6 {
+/*
+h1, h2, h3, h4, h5, h6 {
  font-family: 'Archivo Black', sans-serif;
-}
-*/
+}*/
+
 input[type=text], select {
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
   display: inline-block;
   border: 1px solid #ccc;
-  border-radius: 4px;
+  border-radius: 40px;
   box-sizing: border-box;
   font-family: 'Lato', sans-serif;
- font-weight: 300;
+ font-weight: 100;
 }
 
 input[type=number], select {
@@ -70,7 +74,7 @@ input[type=number], select {
   margin: 8px 0;
   display: inline-block;
   border: 1px solid #ccc;
-  border-radius: 4px;
+  border-radius: 40px;
   box-sizing: border-box;
 }
 
@@ -82,7 +86,7 @@ input[type=password], select {
   margin: 8px 0;
   display: inline-block;
   border: 1px solid #ccc;
-  border-radius: 4px;
+  border-radius: 40px;
 }
 
 input[type=email], select {
@@ -91,16 +95,16 @@ input[type=email], select {
   margin: 8px 0;
   display: inline-block;
   border: 1px solid #ccc;
-  border-radius: 4px;
+  border-radius: 40px;
   box-sizing: border-box;
 }
 
 input[type=submit] {
-  background-color: #4CAF50;
+  background-color: #00ffff;
   color: white;
   padding: 12px 20px;
   border: none;
-  border-radius: 4px;
+  border-radius: 40px;
   cursor: pointer;
 }
 
@@ -110,79 +114,30 @@ input[type=submit]:hover {
 
 
 div {
-  border-radius: 5px;
+  border-radius: 50px;
   background-color: lavender;;
   padding: 20px;
-  width:50%; 
+  width:40%;
+
   margin:0 auto;
-  font-family: 'Archivo Black', sans-serif;
+  /*font-family: 'Archivo Black', sans-serif;*/
    opacity: 0.9;
   filter: alpha(opacity=10);
-   
+  
 }
 
-/* Clear floats */
-.clearfix::after {
-  content: "";
-  clear: both;
-  display: table;
-} 
 
 .words{
   font-family: 'Playfair Display', serif;
- font-weight: 1700;
+ font-weight: 100;
  font-style: italic;
- font-size: 40px;
+ font-size: 25px;
+   height: 0px; 
 }
-
-hr {
-  border: 1px solid #f1f1f1;
-  margin-bottom: 25px;
-}
-
-/* Set a style for all buttons */
-button {
-  background-color: #4CAF50;
-  color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  cursor: pointer;
-  width: 100%;
-  opacity: 0.9;
-}
-
-button:hover {
-  opacity:1;
-}
-
-/* Extra styles for the cancel button */
-.cancelbtn {
-  padding: 14px 20px;
-  background-color: #f44336;
-}
-
-/* Float cancel and signup buttons and add an equal width */
-.cancelbtn, .signupbtn {
-  float: left;
-  width: 50%;
-}
-
-/* Add padding to container elements */
 .container {
   padding: 16px;
+  margin-bottom: 40px;
+  margin-top: 40px;
 }
 
-/* Clear floats */
-.clearfix::after {
-  content: "";
-  clear: both;
-  display: table;
-}
 
-/* Change styles for cancel button and signup button on extra small screens */
-@media screen and (max-width: 300px) {
-  .cancelbtn, .signupbtn {
-    width: 100%;
-  }
-}
