@@ -47,8 +47,8 @@ tr:nth-child(even) {
 }
 
 .main {
-  margin-left: 140px; /* Same width as the sidebar + left position in px */
-  font-size: 28px; /* Increased text to enable scrolling */
+  margin-left: 140px; 
+  font-size: 28px; 
   padding: 0px 10px;
 }
 
@@ -60,14 +60,13 @@ tr:nth-child(even) {
 label {
   display: block;
   margin: 20px 0 0;
-  /*border-bottom: 1px solid green ;*/
+
 }
 label:hover {
   text-decoration: none;
 }
-/*input {
-  position: absolute;
-  left: -999em;*/
+input {
+  left: -999em;
 }
 .hide {
   width: 100%;
@@ -77,13 +76,13 @@ label:hover {
   opacity: 1;
   height: auto;
   overflow: hidden;
-  transition: opacity 1.5s linear, max-height 1.5s linear;
+  transition: opacity 2.5s linear, max-height 2.5s linear;
 }
 .hide p {
   padding: 10px;
   margin: 0;
 }
-.ex1 input[type="checkbox"]:checked + div {
+.tb1 input[type="checkbox"]:checked + div {
   opacity: 0;
   max-height: 0;
   border: none;
@@ -93,7 +92,7 @@ label:hover {
   margin: 0;
 }
 
-/* example 2 */
+
 .inner {
   position: relative;
   overflow: hidden;
@@ -108,44 +107,40 @@ label:hover {
   overflow: hidden;
   transform: translateY(0);
   margin: 0;
-  transition: all 1.5s linear, margin 0s linear 0s;
+  transition: all 2.5s linear, margin 0s linear 0s;
 }
 .hide2 p {
   padding: 10px;
   margin: 0;
 }
-.ex2 .follow {
+.tb2 .follow {
   clear: both;
 }
 
-.ex2 input[type="checkbox"]:checked + .inner .hide2 {
+.tb2 input[type="checkbox"]:checked + .inner .hide2 {
   opacity: 0;
   transform: translateY(-100%);
   margin-bottom: -999em;
-  transition: all 1.5s linear, margin 0s linear 1.5s;
+  transition: all 2.5s linear, margin 0s linear 2.5s;
 }
 
-/* example 3 */
-/*.ex3 .hide3 {
+
+
+.tb3 .hide3 {
   width: 100%;
   display: table;
   height: 150px;  any arbitrary height but best at the minimum initial height you would want. 
   overflow: hidden;
   background: #D8BFD8;
-  transition: all 1.5s ease;*/
-/*  border-left: 1px solid #000;
-  border-right: 1px solid #000;*/
+  transition: all 2.5s ease;
+  border-left: 1px solid #000;
+  border-right: 1px solid #000;
 
 }
 .inner3 {
   padding: 10px;
 }
-/*.ex3 input[type="checkbox"]:checked + .hide3 {
-  height: 0;
-  opacity: 0;
-  display: block;
-}
-*/
+
 
  .admin{
 width: 100%; 
@@ -155,13 +150,7 @@ margin-left: 5px;
 
 }
 button{
-width: 100%;
-  background-color: #4CAF50;
-  color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border-radius: 4px;
-  cursor: pointer;
+background-color: #000fff;font-size: 20px;
 }
 
 
@@ -213,7 +202,7 @@ img.avatar {
   padding: 16px;
 }
 
-span.psw {
+span.officials {
   float: right;
   padding-top: 16px;
 }
@@ -238,7 +227,8 @@ span.psw {
   background-color: #fefefe;
   margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and cente#D8BFD8 */
   border: 1px solid #888;
-  width: 40%; /* Could be more or less, depending on screen size */
+  width: 40%; 
+  /* Could be more or less, depending on screen size */
 }
 
 /* The Close Button (x) */
@@ -275,7 +265,7 @@ span.psw {
 
 /* Change styles for span and cancel button on extra small screens */
 @media screen and (max-width: 300px) {
-  span.psw {
+  span.officials {
      display: block;
      float: none;
   }
@@ -284,5 +274,8 @@ span.psw {
   }
 }
 
-
+img{
+  width:80px;  
+  border-radius: 5px;
+}
 
