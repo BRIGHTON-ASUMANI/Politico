@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Admin</title>
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="styles/admin.css" />
+	<link href="https://fonts.googleapis.com/css?family=Archivo+Black|Judson:400,700" rel="stylesheet" />
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,700|Prata" rel="stylesheet" />
+	<link href="https://fonts.googleapis.com/css?family=Chivo:300,700|Playfair+Display:700i" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+	
+<div class="sidenav">
+  <a href="#political">parties</a>
+  <a href="#services">Services</a>
+  <a href="#clients">Clients</a>
+  <a href="#contact">Contact</a>
+</div>
+
+<div class="main">
+<div class="ex1" class="admin">
+  <label for="item-1" id=political>POLITICAL PARTIES</label> 
+  <input type="checkbox" name="one" id="item-1">
+  <div class="hide">
+   <table>
+
+   	  <tr>
+    <th colspan='3'style='text-align: center;'>POLITICAL PARTIES</th> 
+    <th>
+    	<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;"><i class="fa fa-plus" style="font-size: 20px;"  aria-hidden="true"></i></button></th>
+  </tr>
+  <tr>
+    <td><img src="images/orange.png" alt="logo" align="left" style="width:80px; border-radius: 5px;"></td>
+    <td> <h3> Orange Democratic Movement</h3></td>
+    <td> <button  style="background-color: #000fff;font-size: 20px;" > <i class="fa fa-edit"></i> </button><button  style="background-color: red;font-size: 20px;"><i class="fa fa-trash" ></i></button></td>
+    
+  </tr>
+   	
+   </table>
+  </div>
+</div>
+
+<div class="ex2"  style="float: right; " >
+  <label for="item-2">Toggle Div</label>
+  <input type="checkbox" name="rwo" id="item-2">
+  <div class="inner">
+    <div class="hide2">
+      <p>Equation billions upon billions! Courage of our questions decipherment, take root and flourish, cosmic ocean paroxysm of global death. Light years inconspicuous motes of rock and gas from which we spring something incredible is waiting to be known,
+        muse about!</p>
+    </div>
+  </div>
+</div>
+      </div>
+
+
+
+
+
+
+
+<div id="id01" class="modal">
+  
+  <form class="modal-content animate" action="/action_page.php" >
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="images/ad.ico" style="border-radius: 5px;" style="width: 40%;" alt="Avatar" class="avatar">
+    </div>
+
+    <div class="container">
+ <form class>
+  Username:<br> 
+  <input type="text" name="username" placeholder="Enter your username">
+  <br>
+  password:<br>
+  <input type="password" name="password" placeholder="Enter your password">
+
+    <input type="submit" value="Login" >
+    <br>
+    <br>
+    &nbsp; &nbsp; &nbsp;<a href="reset.html">forgot password</a> or <a href="signup.html">Sing Up</a>
+</form>
+
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+  </form>
+</div>
+
+
+<script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+
+
+
+
+
+</body>
+</html>
+
