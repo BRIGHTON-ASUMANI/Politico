@@ -23,15 +23,15 @@
 
 <div class="main">
 <div class="ex1" class="admin">
+
   <label for="item-1" id=political>POLITICAL PARTIES</label> 
   <input type="checkbox" name="one" id="item-1">
   <div class="hide">
    <table>
 
    	  <tr>
-    <th colspan='3'style='text-align: center;'>POLITICAL PARTIES</th> 
-    <th>
-    	<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;"><i class="fa fa-plus" style="font-size: 20px;"  aria-hidden="true"></i></button></th>
+    <th colspan='3'style='text-align: center;'>POLITICAL PARTIES <button onclick="document.getElementById('id01').style.display='block'" style="width:auto; text-align:right;"><i class="fa fa-plus" style="font-size: 20px;"  aria-hidden="true"></i></button></th> 
+  
   </tr>
   <tr>
     <td><img src="images/orange.png" alt="logo" align="left" style="width:80px; border-radius: 5px;"></td>
@@ -54,40 +54,37 @@
     </div>
   </div>
 </div>
-      </div>
-
-
-
-
-
+ </div>
 
 
 <div id="id01" class="modal">
   
-  <form class="modal-content animate" action="/action_page.php" >
+  <form class="modal-content animate">
     <div class="imgcontainer">
       <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
-      <img src="images/ad.ico" style="border-radius: 5px;" style="width: 40%;" alt="Avatar" class="avatar">
+      <img src="images/ad.ico" alt="Avatar" class="avatar">
     </div>
 
     <div class="container">
- <form class>
-  Username:<br> 
-  <input type="text" name="username" placeholder="Enter your username">
-  <br>
-  password:<br>
-  <input type="password" name="password" placeholder="Enter your password">
+      <label for="uname"><b>Political Party</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
 
-    <input type="submit" value="Login" >
-    <br>
-    <br>
-    &nbsp; &nbsp; &nbsp;<a href="reset.html">forgot password</a> or <a href="signup.html">Sing Up</a>
-</form>
+      <label for="psw"><b>Head official of the party</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
 
+      <label for="psw"><b>Head official of the party</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+        
+      <button type="submit">Create</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
     </div>
 
     <div class="container" style="background-color:#f1f1f1">
       <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
   </form>
 </div>
 
