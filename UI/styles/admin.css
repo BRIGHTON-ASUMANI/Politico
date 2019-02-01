@@ -11,7 +11,7 @@ table, th, td {
 table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
-  width: 100%;
+  width:100%;
 }
 
 td, th {
@@ -276,7 +276,8 @@ span.officials {
 
 
 img{
-  width:80px;  
+  width:40px;  
   border-radius: 5px;
 }
+
 
