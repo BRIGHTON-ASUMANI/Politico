@@ -47,7 +47,7 @@ tr:nth-child(even) {
 }
 
 .main {
-  margin-left: 140px; 
+  margin: 40px; 
   font-size: 28px; 
   padding: 0px 10px;
 }

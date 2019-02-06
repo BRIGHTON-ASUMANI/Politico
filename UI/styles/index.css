@@ -2,8 +2,6 @@
 body {
   font-family: "Lato", sans-serif;
   background: #E6E6FA;
-
-  background-image: url("sign.png");
 }
 
 .topnav {
@@ -112,7 +110,7 @@ tr:nth-child(even) {
 }
 
 .main {
-  margin-left: 140px; 
+  margin: 40px; 
   font-size: 28px; 
   padding: 0px 10px;
 }
