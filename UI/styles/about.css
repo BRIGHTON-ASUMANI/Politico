@@ -1,0 +1,78 @@
+body {
+  font-family: Arial;
+  color: black;
+  background-image: url('/images/sign.png');
+
+}
+
+
+.topnav {
+  overflow: hidden;
+
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+
+}
+
+.topnav a:hover {
+  background-color: blue;
+  color: black;
+}
+
+.topnav .search-container {
+  float: right;
+}
+
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+
+.about{
+
+ padding: 40px 140px 140px 40px;
+}
+
+
+
+@media screen and (max-width: 600px) {
+  .topnav .search-container {
+    float: none;
+  }
+  .topnav a, .topnav input[type=text], .topnav .search-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    /*width: 100%;*/
+    margin: 0;
+    /*padding: 14px;*/
+  }
+  .topnav input[type=text] {
+    border: 1px solid #D8BFD8;  
+  }
+}
+#footer {
+  
+   left:0px;
+   bottom:0px;
+   height:100px;
+   width:100%;
+   background: black;
+}
+
+
+
+a{
+  float: right
+}
