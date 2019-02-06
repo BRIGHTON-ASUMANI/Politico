@@ -2,8 +2,9 @@
 <html>
 <head>
 	<title>Profile</title>
-
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="styles/profile.css" />
+  <link rel="stylesheet" type="text/css" href="styles/nav.css" />
 	<link href="https://fonts.googleapis.com/css?family=Archivo+Black|Judson:400,700" rel="stylesheet" />
 	<link href="https://fonts.googleapis.com/css?family=Lato:300,700|Prata" rel="stylesheet" />
 	<link href="https://fonts.googleapis.com/css?family=Chivo:300,700|Playfair+Display:700i" rel="stylesheet">
@@ -11,14 +12,19 @@
 </head>
 
 
-<!-- <header>
-  <h2>Brighton Asumani</h2>
-</header>
- -->
+<body>
+
+  <div class="topnav" style="background: #E6E6FA;">
+  <a href="index.html">Home</a>
+  <a href="index.html" style="float: right">Logout &nbsp;<i class="fa fa-sign-out"></i> </a>
+ 
+  
+</div>
+
+
 <section>
   <nav>
    
-<h2 style="text-align:center">Profile</h2>
 <div class="card">
   <img src="admin.jpeg" alt="Brighton" style="width:100%">
   <p class="title">Brighton Asumani</p>
@@ -26,7 +32,7 @@
   <p>Id no: 12345678</p>
   <p>phone no: 0987654321</p>
   <div style="margin: 24px 0;">
-    <a href="#"><i class="fa fa-dribbble"></i></a> 
+    <a href="#"><i class="fa fa-dribbble" style="align:right;"></i></a> 
     <a href="#"><i class="fa fa-twitter"></i></a>  
     <a href="#"><i class="fa fa-linkedin"></i></a>  
     <a href="#"><i class="fa fa-facebook"></i></a> 
@@ -36,48 +42,46 @@
   </nav>
   
   <article style="float:right">
-  	<div style="border: solid blue; background: #D8BFD8; padding: 10px; margin-top: 5px;">
-  		<h4>office of the president</h4>
- 
-    	<input type="radio" name="uhuru">uhuru
-    	<input type="radio" name="kibaki">kibaki
-    	<input type="radio" name="Kenyatta">kenyatta
-    	<input type="radio" name="Moi"> moi
-    	<input type="submit" name="vote">
-</div>
+  
 
-  	<div style="border: solid blue; background: #D8BFD8; padding: 10px; margin-top: 5px;">
-  		<h4>Governor</h4>
- 
-    	<input type="radio" name="sonko">sonko
-    	<input type="radio" name="orengo">orengo
-    	<input type="radio" name="ruto">ruto
-    	<input type="radio" name="keneth"> keneth
-    	<input type="submit" name="vote">
-</div>
+  	<div style="padding: 0px; margin-top: 5px;">
 
-<h4> Your Votes</h4>
-  	<div style="border: solid blue; background: #D8BFD8; padding: 10px; margin-top: 5px;">
-  		<h4>You voted for the following candidate</h4>
- 
-    	<input type="radio" name="uhuru" checked="checked">uhuru
-    	<input type="radio" name="kibaki">kibaki
-    	<input type="radio" name="Kenyatta">kenyatta
-    	<input type="radio" name="Moi"> moi
-</div>
+<h2 style="text-align: center;">2017 elections </h2>
 
-  	
-  	<div style="border: solid blue; background: #D8BFD8; padding: 10px; margin-top: 5px;">
-  		<h4>Governor</h4>
-  		<h4>You voted for the following candidate</h4>
- 
-    	<input type="radio" name="sonko">sonko
-    	<input type="radio" name="orengo">orengo
-    	<input type="radio" name="ruto" checked="checked">ruto
-    	<input type="radio" name="keneth"> keneth
-    
+<div class="row">
+  <div class="column" style="background-color:#aaa;">
+    <h4>Presidential seat</h4>
+    <input type="radio" name="president">uhuru</br>
+      <input type="radio" name="president">kibaki</br>
+      <input type="radio" name="president">kenyatta</br>
+      <input type="radio" name="president"> mo</br>
+      <input type="submit" name="president"></br>
+  </div>
+  <div class="column" style="background-color:#bbb;">
+    <h4>Presidential seat</h4>
+    <input type="radio" name="governor">uhuru</br>
+      <input type="radio" name="governor">kibaki</br>
+      <input type="radio" name="governor">kenyatta</br>
+      <input type="radio" name="governor"> mo</br>
+      <input type="submit" name="governo"></br>
+  </div>
+  <div class="column" style="background-color:#ccc;">
+   <h4>Presidential seat</h4>
+    <input type="radio" name="senator">uhuru</br>
+      <input type="radio" name="senator">kibaki</br>
+      <input type="radio" name="senator">kenyatta</br>
+      <input type="radio" name="senator"> mo</br>
+      <input type="submit" name="senator"></br>
+  </div>
+  <div class="column" style="background-color:#ddd;">
+  <h4>Presidential seat</h4>
+    <input type="radio" name="mp">uhuru</br>
+      <input type="radio" name="mp">kibaki</br>
+      <input type="radio" name="mp">kenyatta</br>
+      <input type="radio" name="mp"> mo</br>
+      <input type="submit" name="mp"></br>
+  </div>
 </div>
-
 
 
 
