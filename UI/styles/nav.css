@@ -41,20 +41,8 @@ body {
   border: none;
 }
 
-#search button {
-  float: right;
-  padding: 6px 10px;
-  margin-top: 8px;
-  margin-right: 16px;
-  background: #ddd;
-  font-size: 17px;
-  border: none;
-  cursor: pointer;
-}
 
-.topnav .search-container button:hover {
-  background: #D8BFD8;
-}
+
 
 @media screen and (max-width: 600px) {
   .topnav .search-container {
@@ -64,9 +52,9 @@ body {
     float: none;
     display: block;
     text-align: left;
-    width: 100%;
+    /*width: 100%;*/
     margin: 0;
-    padding: 14px;
+    /*padding: 14px;*/
   }
   .topnav input[type=text] {
     border: 1px solid #D8BFD8;  
