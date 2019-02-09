@@ -1,14 +1,6 @@
-
-#footer {
-  
-   left:0px;
-   bottom:0px;
-   height:100px;
-   width:100%;
-   background: black;
+body {
+  font-family: Arial, Helvetica, sans-serif;
 }
-
-
 
 table, th, td {
   border: none;
@@ -31,11 +23,13 @@ tr:nth-child(even) {
 }
 
 .main {
-  margin: 40px; 
-  font-size: 28px; 
+  margin: 20px; 
   padding: 0px 10px;
 }
 
+#go-right{
+  margin: right;
+}
 
 label {
   display: block;
@@ -109,7 +103,7 @@ input {
 .tb3 .hide3 {
   width: 100%;
   display: table;
-  height: 150px;  any arbitrary height but best at the minimum initial height you would want. 
+  height: 150px;   
   overflow: hidden;
   background: #D8BFD8;
   transition: all 1.5s ease;
@@ -180,27 +174,29 @@ img{
 
 
 
-@media (max-width: 800px) {
-  .form-inline input {
-    margin: 10px 0;
-  }
-  
-  .form-inline {
-    flex-direction: column;
-    align-items: stretch;
-  }
-}
-
 input[type=text], select {
-  width: 80%;
-  padding: 4px;
-  margin: 8px ;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
   display: inline-block;
   border: 1px solid #ccc;
-  border-radius: 20px;
+  border-radius: 4px;
   box-sizing: border-box;
-  font-family: 'Lato', sans-serif;
- font-weight: 100;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
 }
 
 
