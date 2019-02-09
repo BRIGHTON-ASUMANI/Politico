@@ -95,7 +95,7 @@ input[type=submit]:hover {
 }
 
 
-div {
+#log {
   border-radius: 50px;
   background-color: #D8BFD8;
   padding: 20px;
@@ -110,7 +110,6 @@ div {
 
 
 .words{
-  font-family: 'Playfair Display', serif;
  font-weight: 100;
  font-style: italic;
  font-size: 25px;

@@ -1,14 +1,6 @@
-
-#footer {
-  
-   left:0px;
-   bottom:0px;
-   height:100px;
-   width:100%;
-   background: black;
+body {
+  font-family: Arial, Helvetica, sans-serif;
 }
-
-
 
 table, th, td {
   border: none;
@@ -31,11 +23,13 @@ tr:nth-child(even) {
 }
 
 .main {
-  margin: 40px; 
-  font-size: 28px; 
+  margin: 20px; 
   padding: 0px 10px;
 }
 
+#go-right{
+  margin: right;
+}
 
 label {
   display: block;
@@ -109,7 +103,7 @@ input {
 .tb3 .hide3 {
   width: 100%;
   display: table;
-  height: 150px;  any arbitrary height but best at the minimum initial height you would want. 
+  height: 150px;   
   overflow: hidden;
   background: #D8BFD8;
   transition: all 1.5s ease;
