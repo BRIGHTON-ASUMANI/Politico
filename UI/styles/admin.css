@@ -284,3 +284,7 @@ img{
 #coll{
   text-align: center;
 }
+
+#login{
+  float: right
+}

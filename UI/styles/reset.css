@@ -91,7 +91,7 @@ input[type=submit]:hover {
 }
 
 
-div {
+#reset {
   border-radius: 50px;
   background-color: #D8BFD8;
   padding: 20px;
@@ -130,3 +130,6 @@ img.avatar {
 /* end */
 
 
+#login{
+  float: right
+}
