@@ -4,43 +4,44 @@
 	<title>Login</title>
 
 	<link rel="stylesheet" type="text/css" href="styles/login.css" />
-	<link rel="stylesheet" type="text/css" href="nav.css" />
-	<link href="https://fonts.googleapis.com/css?family=Archivo+Black|Judson:400,700" rel="stylesheet" />
-	<link href="https://fonts.googleapis.com/css?family=Lato:300,700|Prata" rel="stylesheet" />
-	<link href="https://fonts.googleapis.com/css?family=Chivo:300,700|Playfair+Display:700i" rel="stylesheet">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="styles/nav.css" />
+  <link href="https://fonts.googleapis.com/css?family=Archivo+Black|Judson:400,700" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,700|Prata" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Chivo:300,700|Playfair+Display:700i" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 </head>
 <body>
 
-
 <div class="topnav">
   <a href="index.html">Home</a>
-  <a href="about.html" >About</a>
-    <a href="singup.html" id="login">Sing up &nbsp; <i class="fa fa-sign-in"></i> </a> 
+  <a href="#about">About</a>
   
-  
-
-  <a href="political.html">political</a>
+  <a href="political.html" id="login" >Admin &nbsp;<i class="fa fa-user"></i> </a>
+  <a href="login.html" id="login" >Login &nbsp;<i class="fa fa-user"></i> </a>
+  <a href="political.html" >political &nbsp;<i class="fa fa-profile"></i> </a>
   
   </div>
 	
 	<!-- login div-->
-	<div id='log' class="container-fluid">
+	<div id='reset' class="container-fluid">
 		<i><h2 align="center">Welcome back</h2></i>
 
-<form class>
+<form>
   Username:<br> 
   <input type="text" name="username" placeholder="Enter your username">
   <br>
   password:<br>
   <input type="password" name="password" placeholder="Enter your password">
 
-    <input type="submit" value="Login" >
+    <button><a href="index.html">Login</a></button>
     <br>
     <br>
     &nbsp; &nbsp; &nbsp;<a href="reset.html">forgot password</a> or <a href="signup.html">Sing Up</a>
 </form>
 
 </div>
+
 </body>
 </html>

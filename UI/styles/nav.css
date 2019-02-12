@@ -28,24 +28,6 @@ body {
   color: black;
 }
 
-/*.topnav a.active {
-  background-color: #D8BFD8;
-  color: white;
-}*/
-
-.topnav .search-container {
-  float: right;
-}
-
-.topnav input[type=text] {
-  padding: 6px;
-  margin-top: 8px;
-  font-size: 17px;
-  border: none;
-}
-
-
-
 
 @media screen and (max-width: 600px) {
   .topnav .search-container {
