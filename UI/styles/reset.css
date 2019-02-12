@@ -1,13 +1,9 @@
-/* login template*/
-
 body {
- font-family: 'Judson', serif;
-  background: #E6E6FA;
- background-repeat: no-repeat;
  font-family: Arial, Helvetica, sans-serif;
+  background: white;
+
   
 }
-
 
 .form-inline {  
   display: flex;
@@ -91,7 +87,7 @@ input[type=submit]:hover {
 }
 
 
-div {
+#reset {
   border-radius: 50px;
   background-color: #D8BFD8;
   padding: 20px;
@@ -117,16 +113,9 @@ div {
   margin-top: 60px;
 }
 
-.avatar {
-  text-align: center;
-  margin: 24px 0 12px 0;
-  position: relative;
+
+
+
+#login{
+  float: right
 }
-
-img.avatar {
-  width: 60%;
-  border-radius: 50%;
-}
-/* end */
-
-

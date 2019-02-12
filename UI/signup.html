@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>Sign up</title>
-  <link rel="stylesheet" type="text/css" href="styles/style.css" />
+  <link rel="stylesheet" type="text/css" href="style.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" href="styles/nav.css" />
   <link href="https://fonts.googleapis.com/css?family=Archivo+Black|Judson:400,700" rel="stylesheet" />
@@ -17,8 +17,9 @@
   <a href="index.html">Home</a>
   <a href="#about">About</a>
   
-  <a href="admin.html" >Admin &nbsp;<i class="fa fa-user"></i> </a>
-  <a href="political.html">political &nbsp;<i class="fa fa-profile"></i> </a>
+  <a href="political.html" id="login" >Admin &nbsp;<i class="fa fa-user"></i> </a>
+  <a href="login.html" id="login" >Login &nbsp;<i class="fa fa-user"></i> </a>
+  <a href="political.html" >political &nbsp;<i class="fa fa-profile"></i> </a>
   
   </div>
   
@@ -45,9 +46,9 @@
   password confirmation:<br>
   <input type="password" name="password confirmation" placeholder="Confirm your password">
  <label>
-      <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+      <input type="checkbox" checked="checked" name="remember"> Remember me
     </label>
-<p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+<p>By creating an account you agree to our <a href="#" >Terms & Privacy</a>.</p>
     <input type="submit" value="Signup"> Already have an account ? please proceed to <a href="login.html">Login</a>
 </form>
 

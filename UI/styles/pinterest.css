@@ -1,3 +1,10 @@
+body {
+ font-family: Arial, Helvetica, sans-serif;
+  background: white;
+
+  
+}
+
 * {
   box-sizing: border-box;
 }
@@ -28,3 +35,7 @@ input[type=button]:hover {
   background-color: #45a049;
 }
 
+
+#login{
+  float: right
+}

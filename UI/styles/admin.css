@@ -1,8 +1,9 @@
 
 body {
-  font-family: "Lato", sans-serif;
-  font-size: 20px;
-  background: #E6E6FA;
+ font-family: Arial, Helvetica, sans-serif;
+  background: white;
+
+  
 }
 
 button{
@@ -84,7 +85,7 @@ input {
   opacity: 1;
   height: auto;
   overflow: hidden;
-  transition: opacity 2.5s linear, max-height 2.5s linear;
+  transition: opacity 1.5s linear, max-height 1.5s linear;
 }
 .hide p {
   padding: 10px;
@@ -115,7 +116,7 @@ input {
   overflow: hidden;
   transform: translateY(0);
   margin: 0;
-  transition: all 2.5s linear, margin 0s linear 0s;
+  transition: all 1.5s linear, margin 0s linear 0s;
 }
 .hide2 p {
   padding: 10px;
@@ -129,7 +130,7 @@ input {
   opacity: 0;
   transform: translateY(-100%);
   margin-bottom: -999em;
-  transition: all 2.5s linear, margin 0s linear 2.5s;
+  transition: all 1.5s linear, margin 0s linear 1.5s;
 }
 
 
@@ -140,7 +141,7 @@ input {
   height: 150px;  any arbitrary height but best at the minimum initial height you would want. 
   overflow: hidden;
   background: #D8BFD8;
-  transition: all 2.5s ease;
+  transition: all 1.5s ease;
   border-left: 1px solid #000;
   border-right: 1px solid #000;
 
@@ -283,4 +284,8 @@ img{
 
 #coll{
   text-align: center;
+}
+
+#login{
+  float: right
 }
