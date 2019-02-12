@@ -1,12 +1,14 @@
 
 body {
-  font-family: "Lato", sans-serif;
-  background: #E6E6FA;
+ font-family: Arial, Helvetica, sans-serif;
+  background: white;
+
+  
 }
 
 .topnav {
   overflow: hidden;
-  background: #E6E6FA;
+  background: #D8BFD8;
 
 }
 
